@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            font styling
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="con">
+    <div class="one">
+    <h1>This is Box one</h1>
+    </div>
+    <div class="one">
+    <h1>This is Box two</h1>
+    </div>
+    <div class="one">
+    <h1>This is Box three</h1>
+    </div>
+    </div>
+    
+    
+</body>
+</html>
+-----------------------------------------------------------------
+
+CSS
+
+.con{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.one{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+}
+@media (max-width : 600px)
+{
+    .con{
+        flex-direction: column;
+    }
+}
