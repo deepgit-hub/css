@@ -1,4 +1,4 @@
-<!-- ❓ Question 2: Responsive Font Size
+<!-- ❓ Question 17: Responsive Font Size
 
 👉 Create:
 
@@ -13,3 +13,37 @@ Paragraph → 20px
 Mobile (max-width: 600px)
 Heading → 25px
 Paragraph → 14px -->
+
+<html>
+    <head>
+        <title>
+            Media Query
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+ <h1>Mobile responsive </h1>
+   <p>This is about text mobile responsive</p> 
+    
+</body>
+</html>
+
+---------------------------------------------------------------
+
+CSS
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+@media (max-width : 600px)
+{
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
